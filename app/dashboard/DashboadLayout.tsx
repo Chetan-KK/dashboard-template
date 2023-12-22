@@ -13,9 +13,9 @@ const DashboardLayout = ({ children }: any) => {
       <DashboardSidebar />
 
       <div
-        className={`p-4 ${
-          sidebarState ? "sm:ml-[80px]" : "sm:ml-[330px]"
-        } h-screen overflow-hidden overflow-y-scroll`}
+        className={`sm:p-4 pt-4 ${
+          sidebarState ? "ml-[80px]" : "ml-[330px]"
+        } min-w-[250px] h-screen overflow-hidden overflow-y-scroll`}
       >
         <Suspense fallback={<Loading />}>{children}</Suspense>
       </div>

@@ -289,3 +289,9 @@
   padding: 0 5px;
   font-size: 0.875rem;
 }
+@media screen and (max-width: 460px) {
+  .title-section {
+    padding: 0.75rem;
+    margin: 0.5rem;
+  }
+}

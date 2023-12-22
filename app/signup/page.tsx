@@ -23,7 +23,7 @@ const Signup = () => {
   return (
     <>
       <Header loggedIn={false} />
-      <div className="w-80 sm:w-96 m-auto pt-14">
+      <div className="w-80 sm:w-96 m-auto sm:pt-14 pt-4">
         <Card className="bg-background">
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl">Create account</CardTitle>

@@ -4,7 +4,6 @@ import logo from "@/public/logo.png";
 import Link from "next/link";
 import { ModeToggle } from "@/components/ui/mode-toggle";
 import { Button } from "@/components/ui/button";
-import { Icons } from "@/components/icons";
 
 type props = {
   loggedIn: boolean;
@@ -16,13 +15,6 @@ const Header = (props: props) => {
       <div className="px-3 py-3 lg:px-5 lg:pl-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-start">
-            <Button
-              type="button"
-              variant={"ghost"}
-              className="p-2 mr-2 sm:hidden"
-            >
-              <Icons.gitHub className="h-4 w-4" />
-            </Button>
             <Link href={"/"} className="flex items-center gap-2">
               <Image priority className="h-10 w-auto" src={logo} alt="logo" />
               <div className="hidden sm:block">
