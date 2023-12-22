@@ -4,6 +4,13 @@
 
 This GitHub project is a template for creating dynamic and visually appealing dashboard using Next.js. The template is designed with the Shadcn UI, for modern user interface. With support for multiple themes, this dashboard template is responsive and highly customizable
 
+<hr/>
+
+preview: [here](https://dashboard-template-next-js.vercel.app/)
+
+- email: admin@gmail.com
+- password: admin@123
+
 ## Features
 
 1. **Next.js Integration:** Used Next.js to build a performant and scalable dashboard application with server-side rendering and other advanced features.
